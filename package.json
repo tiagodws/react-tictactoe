@@ -5,7 +5,9 @@
     "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.0",
     "babel-preset-react": "^6.23.0",
-    "webpack": "^2.3.3"
+    "express": "^4.15.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-middleware": "^1.10.1"
   },
   "description": "Resume",
   "keywords": [],
@@ -13,7 +15,9 @@
   "main": "index.js",
   "name": "resume",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "version": "1.0.0"
 }
