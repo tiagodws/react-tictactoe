@@ -2,8 +2,10 @@
   "author": "Tiago Dionesto",
   "dependencies": {
     "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.0",
-    "babel-preset-react": "^6.23.0"
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.3"
   },
   "description": "Resume",
   "keywords": [],
