@@ -1,0 +1,17 @@
+{
+  "author": "Tiago Dionesto",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0"
+  },
+  "description": "Resume",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "resume",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
