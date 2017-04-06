@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import React from "react";
+import ReactDOM from "react-dom";
+import Square from "./components/Square/Square";
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
-        React.createElement(Counter), document.getElementById('mount')
+        React.createElement(Square), document.getElementById("mount")
     );
 });

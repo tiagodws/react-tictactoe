@@ -9,17 +9,18 @@ const compiler = webpack(webpackConfig);
 app.use(express.static(__dirname + "/www"));
 
 app.use(webpackDevMiddleware(compiler, {
-  hot: true,
-  filename: "bundle.js",
-  publicPath: "/",
-  stats: {
-    colors: true,
-  },
-  historyApiFallback: true,
+    hot: true,
+    filename: "bundle.js",
+    publicPath: "/",
+    stats: {
+        colors: true,
+    },
+    historyApiFallback: true,
 }));
 
 const server = app.listen(3000, () => {
-  const host = server.address().address;
-  const port = server.address().port;
-  console.log("Listening at http://%s%s", host, port);
+    const host = server.address().address;
+    const port = server.address().port;
+    // eslint-disable-next-line no-console
+    console.log("Listening at http://%s%s", host, port);
 });
