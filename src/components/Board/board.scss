@@ -1,0 +1,10 @@
+.board {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.board-row {
+    flex: 1;
+    flex-wrap: nowrap;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Square from "./components/Square/Square";
+import Board from "./components/Board/Board";
 
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
-        React.createElement(Square), document.getElementById("mount")
+        React.createElement(Board), document.getElementById("mount")
     );
 });
