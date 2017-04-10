@@ -1,4 +1,5 @@
-# Tiago Dionesto's Resume
+# react-tictactoe
+React TicTacToe Game
 
 Usage
 ---
