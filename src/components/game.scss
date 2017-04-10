@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+button:focus {
+    outline:0;
+}
+
+.game {
+    float: left;
+    width: 50%;
+    height: 100%;
+    min-width: 400px;
+    background-color: grey;
+    //border-width: 0 6px 0 0;
+    //border-style: solid;
+    //border-color: black;
+    box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.40);
+}
+
+.history {
+    float: left;
+    padding: 16px;
+}

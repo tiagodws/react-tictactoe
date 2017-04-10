@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Board from "./components/Board/Board";
+import Game from "./components/Game";
 
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
-        React.createElement(Board), document.getElementById("mount")
+        <Game />, document.getElementById("container")
     );
 });

@@ -1,17 +1,21 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./square.scss";
 
 class Square extends Component {
 
     render() {
-        const {onClick} = this.props;
+        const { onClick, value, winner } = this.props;
         return (
-            <button className="square" onClick={onClick}>
-                {this.props.value}
-            </button>
+            <button className={"square" + (value ? " player" + value : "") + (winner ? " winner" : "")} onClick={onClick} />
         );
     }
 
 }
+
+Square.propTypes = {
+    onClick: React.PropTypes.func,
+    value: React.PropTypes.number,
+    winner: React.PropTypes.bool,
+};
 
 export default Square;
